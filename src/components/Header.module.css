@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--primary);
+  border-left: 3px solid var(--secondary);
+}
+
+.header-menu-item {
+  padding: 0 16px;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.menu-button {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  margin-left: 10px;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.menu-button svg {
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  font-size: 24px;
+  color: var(--secondary);
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}

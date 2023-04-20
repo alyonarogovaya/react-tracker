@@ -1,0 +1,45 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: 0.8;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--white);
+  border-radius: 2px;
+  z-index: 101;
+  width: 500px;
+}
+
+.modal header {
+  padding: 20px;
+  border-bottom: 1px solid var(--primary);
+}
+
+.btn-cancel {
+  color: var(--secondary);
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.btn-cancel:hover {
+  text-decoration: underline;
+}
+
+.modal-content,
+.modal footer {
+  padding: 20px;
+}
+
+.modal-content {
+  border-bottom: 1px solid var(--primary);
+}

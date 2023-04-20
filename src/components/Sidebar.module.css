@@ -1,0 +1,47 @@
+.sidebar {
+  max-width: 55px;
+  height: 100vh;
+  border-right: 1px solid var(--primary);
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar a {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  padding: 14px 16px;
+  width: 100%;
+  border-left: 3px solid var(--secondary);
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar a span {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar a svg {
+  display: inline-block;
+  min-width: 24px;
+  height: 24px;
+}
+
+.sidebar a:hover,
+.active {
+  background-color: var(--primary-light);
+}
+
+.sidebar.opened {
+  max-width: 200px;
+  width: 100%;
+}

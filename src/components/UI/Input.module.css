@@ -1,0 +1,8 @@
+.input {
+  font-family: inherit;
+  width: 100%;
+  outline: none;
+  padding: 10px 12px;
+  border: 1px solid var(--primary);
+  border-radius: 2px;
+}
